@@ -5,7 +5,7 @@ const { getCurrentContext } = require('../lib')
 
 ;(async () => {
 
-  const context = getCurrentContext()
+  const context = await getCurrentContext()
 
   if (!context) console.log(red('no context selected'))
   else console.log(blue(context._name))
