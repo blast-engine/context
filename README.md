@@ -9,7 +9,9 @@ Run `yarn add @blast-engine/context` or `npm i @blast-engine/context`
 ## Usage
 
 Run `yarn context:select` to select a previously declared context.
+
 Run `yarn context:current` to see the currently selected context.
+
 Run `yarn context:set [context]` to explicitly set your current context to the specified context name.
 
 
