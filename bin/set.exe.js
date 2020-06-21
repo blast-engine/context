@@ -10,7 +10,7 @@ const { setCurrentContext } = require('../lib')
   if (!contextName) return console.log(red('context name not given'))
 
   try {
-    await setCurrentContext(contextName)
+    await setCurrentContext({ contextName, directory: __dirname })
   } catch (e) { return console.log(red(e)) }
 
   return console.log(blue(`set context "${contextName}"`))

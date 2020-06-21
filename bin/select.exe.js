@@ -7,7 +7,7 @@ const { selectCurrentContext } = require('../lib')
 
   let context
   try {
-    context = await selectCurrentContext()
+    context = await selectCurrentContext({ directory: __dirname })
   } catch (e) { return console.log(red(e)) }
 
   return console.log(blue(`set context "${context._name}"`))

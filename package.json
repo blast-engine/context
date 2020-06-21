@@ -8,10 +8,10 @@
     "context:select": "bin/select.exe.js"
   },
   "dependencies": {
-    "@blast-engine/find-recursively-up": "^0.0.0",
-    "@blast-engine/utils": "^0.0.3",
-    "chalk": "^2.4.2",
-    "inquirer": "^6.2.0",
-    "yargs": "^14.0.0"
+    "@blast-engine/find-recursively-up": "0.0.4",
+    "@blast-engine/utils": "0.0.3",
+    "chalk": "2.4.2",
+    "inquirer": "6.5.2",
+    "yargs": "14.2.0"
   }
 }
