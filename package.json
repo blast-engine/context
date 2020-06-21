@@ -1,6 +1,6 @@
 {
   "name": "@blast-engine/context",
-  "version": "0.1.2",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "bin": {
     "context:current": "bin/current.exe.js",
