@@ -1,6 +1,6 @@
 {
   "name": "@blast-engine/context",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "main": "lib/index.js",
   "bin": {
     "context-current": "bin/current.exe.js",
@@ -8,8 +8,8 @@
     "context-select": "bin/select.exe.js"
   },
   "dependencies": {
-    "@blast-engine/find-recursively-up": "0.0.4",
-    "@blast-engine/utils": "0.0.3",
+    "@blast-engine/find-recursively-up": "^2.0.0",
+    "@blast-engine/utils": "^2.0.0",
     "chalk": "2.4.2",
     "inquirer": "6.5.2",
     "yargs": "14.2.0"
