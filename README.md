@@ -1,4 +1,4 @@
-- [$♣-embeddings$](f_embeddings)
+- [♣embeddings](f_embeddings)
 
 # Context
 
