@@ -1,3 +1,5 @@
+- [$♣-embeddings$](f_embeddings)
+
 # Context
 
 This is a package to help control different contexts on your node/web application.
