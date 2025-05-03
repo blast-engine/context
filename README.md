@@ -1,4 +1,3 @@
-[$♣_embeddings]($♣_embeddings)
 
 # Context
 
